@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>多媒体之视频</title>
+    </head>
+    <body>
+        <!--controls:可以在页面中显示视频控件-->
+        <!--autoplay:自动播放-->
+        <!--muted:自动播放但是没有声音-->
+        <!--loop:循环播放-->
+
+        <!--
+            如果A浏览器支持第一个，那就直接播放第一个
+            如果B浏览器支持第二个，遇到第一个标签的时候不会执行，遇到第二额可个可以支持的，那么才播放
+        -->
+
+        <!-- <video src="1.mp4" muted controls autoplay loop></video> -->
+        <video controls autoplay loop>
+            <source src="a.mp4">
+            对不起，您的破浏览器不支持，请升级
+        </video>
+    </body>
+</html>
